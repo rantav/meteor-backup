@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1418675040000",
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucket",
+        "s3:PutObject",
+        "s3:GetBucketLocation",
+        "s3:PutObjectAcl"
+      ],
+      "Resource": [
+        "arn:aws:s3:::my-perfect-backup",
+        "arn:aws:s3:::my-perfect-backup/*"
+      ]
+    }
+  ]
+}

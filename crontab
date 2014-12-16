@@ -1,0 +1,3 @@
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+0 0,12 * * * /bin/bash -l -c '/home/ubuntu/backup.sh' 2>&1 | mail -s "meteor mongo backup" me@example.com
