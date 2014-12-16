@@ -12,6 +12,7 @@ ARCHIVE_NAME="$FILE_NAME.tar.gz"
 
 ########################################################
 # dump as json files
+# List your connections here
 COLLECTIONS="emails users teams companies employees migrations roles"
 meteor-backup $SITE $COLLECTIONS -d $DIR/backup/$FILE_NAME
 
